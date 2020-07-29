@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Log in</title>
+        <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style5.css">
+    </head> 
+
+    <body>
+        <nav id="main_menu">
+           <a id="logo" href="myweb.html"><img src="../7140finalweb/images/未标题-3.png" alt="logo" title="Home" width="200" height="120"></a>
+           <ul>
+               <li>
+                   <a href="signin.html" title="Log in">SIGN IN</a>
+               </li>
+               <li class="read">
+                   <a  href="" title="Know us from here">ABOUT US</a>
+               </li>
+               <li>
+                   <a href="myweb.html" title="home page">HOME</a>
+               </li>
+               <li>
+                    <a href="area3.html"><img src="../7140finalweb/images/购物车.png" alt="shopping" title="Booking and Paying" width="25" height="25"></a>
+               </li>
+           </ul> 
+        </nav>
+
+        <section>
+            <form class="details">
+                <p>First name:</p>
+                <input type="text" name="firstname">
+                <p>Middle name:</p>
+                <input type="text" name="middle">
+                <p>Last name:</p>
+                <input type="text" name="lastname"><br>
+                <br>
+                <input type="radio" name="gender" value="other" checked>Other 
+                <input type="radio" name="gender" value="male">Male 
+                <input type="radio" name="gender" value="female">Female
+                <p>Your birthday:</p>
+                <input type="date" name="birth">
+                <p>Your E-mail:</p>
+                <input type="email" name=" email">
+                <p>Your phone number:</p>
+                <input type="tel" name="number">
+                <p>Password:</p>
+                <input type="password" name="passwords"> 
+                <button id="button1" onclick="newfunction()">Submit</button>
+                <button id="button2" onclick="refunction()">Reset</button>
+            </form>
+        </section>
+
+        <script src="../7140finalweb/script.js"></script>
+    </body>
+</html>

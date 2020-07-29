@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Accomodation</title>
+        <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style3.css">
+    </head> 
+
+    <body>
+        <nav id="main_menu">
+           <a id="logo" href="myweb.html"><img src="../7140finalweb/images/未标题-3.png" alt="logo" title="Home" width="200" height="120"></a>
+           <ul>
+               <li>
+                   <a href="signin.html" title="Log in">SIGN IN</a>
+               </li>
+               <li>
+                   <a href="" title="Know us from here">ABOUT US</a>
+               </li>
+               <li>
+                   <a href="myweb.html" title="home page">HOME</a>
+               </li>
+               <li>
+                    <a href=""><img src="../7140finalweb/images/购物车.png" alt="shopping" title="Booking and Paying" width="25" height="25"></a>
+               </li>
+           </ul> 
+        </nav>
+
+        <section id="table">
+            <h3>The purpose of staying here:</h3>
+            <select>
+                <option value="Parkour">Parkour</option>
+                <option value="For holiday">For Holiday</option>
+                <option value="none">None</option>
+            </select>
+            <h3>I want to stay here:</h3>
+            <form>
+                <p>From:</p>
+                <input type="date" name="start">
+                <p>To:</p>
+                <input type="date" name="end">
+            </form>
+            <h3>Type of rooms:</h3>
+            <from>
+                <input type="checkbox" name="type" value="single">Small size single room
+                <form>
+                    <p>Quantity:</p>
+                    <input type="number" name="quantity" min="1" max="10">
+                </form><br>
+                <input type="checkbox" name="type" value="single">Large size single room
+                <form>
+                        <p>Quantity:</p>
+                        <input type="number" name="quantity" min="1" max="10">
+                </form><br>
+                <input type="checkbox" name="type" value="double">Small size double room
+                <form>
+                        <p>Quantity:</p>
+                        <input type="number" name="quantity" min="1" max="5">
+                </form><br>
+                <input type="checkbox" name="type" value="double">Large size double room
+                <form>
+                        <p>Quantity:</p>
+                        <input type="number" name="quantity" min="1" max="5">
+                </form><br>
+                <input type="checkbox" name="type" value="suite">Suite
+                <form>
+                        <p>Quantity:</p>
+                        <input type="number" name="quantity" min="1" max="2">
+                </form><br>
+                <button id="button1" onclick="myfunction()">Submit</button>
+                <button id="button2" onclick="mefunction()">Reset</button>
+            </from>
+        </section>
+
+        <section>
+            <div class="gallery">
+                <a target="_self" href="../7140finalweb/images/small single.jpg">
+                    <img src="../7140finalweb/images/small single.jpg" alt="small single room" width="450px" height="300px">
+                </a>
+                <div class="info">For 1 person.</div>
+                <div class="info">$ 300 (per night)</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_self" href="../7140finalweb/images/large single.jpg">
+                    <img src="../7140finalweb/images/large single.jpg" alt="large single room" width="450px" height="300px">
+                </a>
+                <div class="info">For 1 person.</div>
+                <div class="info">$ 450 (per night)</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_self" href="../7140finalweb/images/small double.jpg">
+                    <img src="../7140finalweb/images/small double.jpg" alt="small double room" width="450px" height="300px">
+                </a>
+                <div class="info">For 2 people.</div>
+                <div class="info">$ 500 (per night)</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_self" href="../7140finalweb/images/large double.jpg">
+                    <img src="../7140finalweb/images/large double.jpg" alt="large double room" width="450px" height="300px">
+                </a>
+                <div class="info">For 2 people.</div>
+                <div class="info">$ 650 (per night)</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_self" href="../7140finalweb/images/suite.jpg">
+                    <img src="../7140finalweb/images/suite.jpg" alt="suite" width="450px" height="300px">
+                </a>
+                <div class="info">For no more 5 people.</div>
+                <div class="info">$ 1000 (per night)</div>
+            </div>
+        </section>
+
+        <div id="gotop">
+            <a href="#main_menu"><img src="../7140finalweb/images/返回顶部4.png" title="Go back to top" height="40px" width="40px"></a>
+        </div>
+
+        <script src="../7140finalweb/script.js"></script>
+    </body>
